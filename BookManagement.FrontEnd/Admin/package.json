@@ -60,8 +60,9 @@
     "yarn": "^1.22.21"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
+    "@babel/core": "^7.26.0",
+    "@babel/eslint-parser": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
@@ -79,6 +80,7 @@
     ],
     "parserOptions": {
       "parser": "@babel/eslint-parser"
+
     },
     "rules": {
       "vue/multi-word-component-names": "off",
