@@ -124,17 +124,9 @@ export default {
               <span class="pc-micon">
                 <i class="ph-duotone ph-database"></i>
               </span>
-              <span class="pc-mtext"> Best Sellers</span>
+              <span class="pc-mtext">Sách bán chạy</span>
             </router-link>
           </li>
-          <li class="pc-item" :class="{ active: this.$route.path === '/cartoon-list' }">
-            <router-link to="/cartoon-list" class="pc-link">
-              <span class="pc-micon"> <i class="ph-duotone ph-flower"></i> </span
-              ><span class="pc-mtext">Truyện tranh</span></router-link
-            >
-          </li>
-        </ul>
-
         <div class="card nav-action-card bg-brand-color-4">
           <div
             class="card-body"
@@ -152,6 +144,7 @@ export default {
             >
           </div>
         </div>
+      </ul>
       </div>
     </simplebar>
   </div>

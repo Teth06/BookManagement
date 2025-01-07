@@ -102,9 +102,7 @@ onMounted(() => {
                   class="form-control border-0 shadow-none"
                   placeholder="Search here. . ."
                 />
-                <button class="btn btn-light-secondary btn-search">
-                  <kbd>ctrl+k</kbd>
-                </button>
+
               </div>
             </form>
           </div>
@@ -113,9 +111,8 @@ onMounted(() => {
           <form class="form-search">
             <i class="ph-duotone ph-magnifying-glass icon-search"></i>
             <input type="search" class="form-control" placeholder="Search. . ." />
-            <button class="btn btn-light-secondary btn-search" style="padding: 0">
-              <kbd>ctrl+k</kbd>
-            </button>
+
+
           </form>
         </li>
       </ul>
