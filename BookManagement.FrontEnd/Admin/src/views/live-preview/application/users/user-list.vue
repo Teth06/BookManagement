@@ -19,7 +19,7 @@ onMounted(async () => {
 
 <template>
   <Layout>
-    <pageheader title="User List" pageTitle="Users" />
+    <pageheader title="Danh sách người dùng" pageTitle="Users" />
     <BRow>
       <div class="col-sm-12">
         <div class="card table-card user-profile-list">
@@ -59,21 +59,7 @@ onMounted(async () => {
                     <td>{{ item.gender }}</td>
                     <td>{{ item.point }}</td>
                     <td>
-                      <span class="badge bg-light-success">Active</span>
-                      <!-- <div class="overlay-edit">
-                        <ul class="list-inline mb-0">
-                          <li class="list-inline-item m-0">
-                            <a href="#" class="avtar avtar-s btn btn-primary"
-                              ><i class="ti ti-pencil f-18"></i
-                            ></a>
-                          </li>
-                          <li class="list-inline-item m-0">
-                            <a href="#" class="avtar avtar-s btn bg-white btn-link-danger"
-                              ><i class="ti ti-trash f-18"></i
-                            ></a>
-                          </li>
-                        </ul>
-                      </div> -->
+                      <span class="badge bg-light-success">Hoạt động</span>
                     </td>
                   </tr>
                 </tbody>

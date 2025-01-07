@@ -205,39 +205,6 @@ export default {
       </div>
     </BCardBody>
   </BCard>
-  <!-- <div class="dropdown">
-                <BLink class="btn btn-icon btn-link-secondary avtar arrow-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="0,20">
-                    <i class="ph-duotone ph-windows-logo"></i>
-                </BLink>
-                <div class="dropdown-menu">
-                    <ul>
-                        <li>
-                            <BLink class="pc-user-links">
-                                <i class="ph-duotone ph-user"></i>
-                                <span>My Account</span>
-                            </BLink>
-                        </li>
-                        <li>
-                            <BLink class="pc-user-links">
-                                <i class="ph-duotone ph-gear"></i>
-                                <span>Settings</span>
-                            </BLink>
-                        </li>
-                        <li>
-                            <BLink class="pc-user-links">
-                                <i class="ph-duotone ph-lock-key"></i>
-                                <span>Lock Screen</span>
-                            </BLink>
-                        </li>
-                        <li>
-                            <BLink class="pc-user-links">
-                                <i class="ph-duotone ph-power"></i>
-                                <span>Logout</span>
-                            </BLink>
-                        </li>
-                    </ul>
-                </div>
-            </div> -->
 </template>
 
 <style>

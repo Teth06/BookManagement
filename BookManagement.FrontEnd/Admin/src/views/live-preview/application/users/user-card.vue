@@ -21,7 +21,7 @@ onMounted(async () => {
 
 <template>
   <Layout>
-    <pageheader title="User Card" pageTitle="Users" />
+    <pageheader title="Voucher" pageTitle="Users" />
     <BRow>
       <div class="text-end p-sm-4 pb-sm-2 mb-4">
         <RouterLink :to="{ path: '/add-voucher' }" class="btn btn-primary">

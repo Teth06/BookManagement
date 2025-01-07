@@ -10,38 +10,8 @@ import {
 <template>
   <Layout>
     <pageheader title="Thống kê doanh thu" pageTitle="Widget" />
-
-    <BRow>
-      <BCol lg="6">
-        <BCard no-body>
-          <BCardHeader>
-            <div class="d-flex align-items-center justify-content-between">
-              <h5 class="mb-0">Doanh thu</h5>
-              <input
-                type="date"
-                class="form-control form-control-sm w-auto border-0 shadow-none2"
-              />
-            </div>
-          </BCardHeader>
-          <BCardBody>
-            <div class="d-flex align-items-center mb-1">
-              <h3 class="mb-0">4.283.000VNĐ<small class="text-muted">/+2.000.000VNĐ</small></h3>
-              <span class="badge bg-light-success ms-2">51%</span>
-            </div>
-            <p>Số lượng đơn đặt hàng</p>
-            <div id="customer-rate-graph"></div>
-            <apexchart
-              class="apex-charts"
-              height="230"
-              dir="ltr"
-              :series="earningsChart.series"
-              :options="earningsChart.chartOptions"
-            ></apexchart>
-          </BCardBody>
-        </BCard>
-      </BCol>
-    </BRow>
-      <BCol lg="6">
+<!--Bảng tổng quan-->
+      <BCol lg="11">
         <BCard no-body>
           <BCardHeader class="d-flex align-items-center justify-content-between">
             <h5>Tổng quan</h5>
@@ -133,5 +103,36 @@ import {
           </BCardBody>
         </BCard>
       </BCol>
+      <BRow>
+<!--Bảng doanh thu-->
+      <BCol lg="11">
+        <BCard no-body>
+          <BCardHeader>
+            <div class="d-flex align-items-center justify-content-between">
+              <h5 class="mb-0">Doanh thu</h5>
+              <input
+                type="date"
+                class="form-control form-control-sm w-auto border-0 shadow-none2"
+              />
+            </div>
+          </BCardHeader>
+          <BCardBody>
+            <div class="d-flex align-items-center mb-1">
+              <h3 class="mb-0">4.250.000VNĐ<small class="text-muted">/+2.000.000VNĐ</small></h3>
+              <span class="badge bg-light-success ms-2">51%</span>
+            </div>
+            <p>Số lượng đơn đặt hàng</p>
+            <div id="customer-rate-graph"></div>
+            <apexchart
+              class="apex-charts"
+              height="230"
+              dir="ltr"
+              :series="earningsChart.series"
+              :options="earningsChart.chartOptions"
+            ></apexchart>
+          </BCardBody>
+        </BCard>
+      </BCol>
+    </BRow>
   </Layout>
 </template>

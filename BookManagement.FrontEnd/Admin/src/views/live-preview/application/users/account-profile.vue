@@ -77,7 +77,7 @@ onMounted(async () => {
                                     </div>
                                     <h5 class="mb-0">{{ dataUser.fullName }}</h5>
                                     <p class="text-muted text-sm"> {{dataUser.nickName}}
-                                        😍</p>
+                                        </p>
                                     <ul class="list-inline mx-auto my-4">
                                         <li class="list-inline-item">
                                             <a href="#" class="avtar avtar-s text-white bg-dribbble">
