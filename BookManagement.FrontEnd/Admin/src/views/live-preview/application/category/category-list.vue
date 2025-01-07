@@ -48,7 +48,7 @@ onMounted(async () => {
 
 <template>
   <Layout>
-    <pageheader title="Category list" pageTitle="Category" />
+    <pageheader title="Quản lý danh mục" pageTitle="Category" />
     <BRow>
       <BCol class="col-sm-12">
         <BCard no-body class="table-card">
@@ -66,7 +66,7 @@ onMounted(async () => {
                     <th class="text-left">STT</th>
                     <th class="text-left">Tên danh mục</th>
                     <th>Số lượng sách</th>
-                    <th class="text-left">Action</th>
+                    <th class="text-left">Tùy chỉnh</th>
                   </tr>
                 </thead>
                 <tbody v-for="(item, index) in dataCategories" :key="item.id">
@@ -83,7 +83,7 @@ onMounted(async () => {
                           <li
                             class="list-inline-item align-bottom"
                             data-bs-toggle="tooltip"
-                            title="Edit"
+                            title="Sửa"
                           >
                             <button
                               @click="viewBook(item.id)"
@@ -95,7 +95,7 @@ onMounted(async () => {
                           <li
                             class="list-inline-item align-bottom"
                             data-bs-toggle="tooltip"
-                            title="Delete"
+                            title="Xóa"
                           >
                             <BButton
                               href="#"

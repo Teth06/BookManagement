@@ -53,14 +53,14 @@ onMounted(async () => {
 
 <template>
   <Layout>
-    <pageheader title="Products list" pageTitle="E-commerce" />
+    <pageheader title="Quản lý sách" pageTitle="E-commerce" />
     <BRow>
       <BCol class="col-sm-12">
         <BCard no-body class="table-card">
           <BCardBody>
             <div class="text-end p-sm-4 pb-sm-2">
               <RouterLink :to="{ path: '/add-product' }" class="btn btn-primary">
-                <i class="ti ti-plus f-18"></i> Add Product
+                <i class="ti ti-plus f-18"></i> Thêm sản phẩm
               </RouterLink>
             </div>
             <div class="table-responsive">
@@ -70,7 +70,7 @@ onMounted(async () => {
                     <th class="text-end">STT</th>
                     <th>Tên sách</th>
                     <th>Tác giả</th>
-                    <th class="text-end">Gía bán</th>
+                    <th class="text-end">Giá bán</th>
                     <th class="text-end">Số lượng</th>
                     <th class="text-center">Danh mục</th>
                     <th class="text-center">Trạng thái</th>
