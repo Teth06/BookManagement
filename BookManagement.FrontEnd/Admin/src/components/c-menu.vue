@@ -18,7 +18,7 @@ export default {
             },
         },
     },
-    
+
 };
 </script>
 
@@ -32,13 +32,13 @@ export default {
         </div>
         <div class="offcanvas-body p-0">
             <BCard no-body class="component-list-card position-xl-fixed">
-                <BCardHeader class="card-header">
+                <!--<BCardHeader class="card-header">
                     <div class="form-search">
                         <i class="ph-duotone ph-magnifying-glass icon-search"></i>
                         <input type="search" class="form-control" placeholder="ex. alert, textbox... " id="compo-menu-search">
                     </div>
                 </BCardHeader>
-
+              -->
                 <BCardBody class="card-body p-0">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item component-page">

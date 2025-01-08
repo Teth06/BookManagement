@@ -102,18 +102,11 @@ onMounted(() => {
                   class="form-control border-0 shadow-none"
                   placeholder="Search here. . ."
                 />
-
               </div>
             </form>
           </div>
         </li>
         <li class="pc-h-item d-none d-md-inline-flex">
-          <form class="form-search">
-            <i class="ph-duotone ph-magnifying-glass icon-search"></i>
-            <input type="search" class="form-control" placeholder="Search. . ." />
-
-
-          </form>
         </li>
       </ul>
     </div>
